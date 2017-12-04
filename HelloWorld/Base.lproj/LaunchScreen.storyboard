@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="17B1003" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2017 Ade Wija Nugraha. All Right Reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Di1-te-eLx">
+                                <rect key="frame" x="30" y="674" width="355" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Di1-te-eLx" secondAttribute="height" multiplier="343:41" id="Jfw-yG-IGK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World Apps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUK-sE-xES">
+                                <rect key="frame" x="20" y="422" width="374" height="35"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fire-307384_960_720" translatesAutoresizingMaskIntoConstraints="NO" id="mlL-NF-VMv">
+                                <rect key="frame" x="87" y="84" width="240" height="330"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="330" id="7tn-Oc-4ES"/>
+                                    <constraint firstAttribute="width" constant="240" id="YWw-V1-gEO"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fUK-sE-xES" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="BVi-W0-4t1"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Di1-te-eLx" secondAttribute="bottom" constant="20" id="i2g-MD-9ak"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Di1-te-eLx" secondAttribute="trailing" constant="9.5" id="lrS-SM-0cN"/>
+                            <constraint firstItem="mlL-NF-VMv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mVB-9J-bHu"/>
+                            <constraint firstItem="fUK-sE-xES" firstAttribute="top" secondItem="mlL-NF-VMv" secondAttribute="bottom" constant="8" id="mqG-Cl-rjK"/>
+                            <constraint firstItem="Di1-te-eLx" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="9.5" id="piq-MN-S8Y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fUK-sE-xES" secondAttribute="trailing" id="rbj-r1-klW"/>
+                            <constraint firstItem="mlL-NF-VMv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="smL-WA-JnF"/>
+                            <constraint firstItem="mlL-NF-VMv" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="64" id="zLh-o2-8xV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.399999999999999" y="373.76311844077964"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fire-307384_960_720" width="456" height="720"/>
+    </resources>
+</document>
