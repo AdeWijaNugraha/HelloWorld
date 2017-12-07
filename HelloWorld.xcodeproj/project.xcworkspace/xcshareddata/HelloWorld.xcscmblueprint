@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "99D8FEE17C73C53C77DE1AB5630DB0DBD6D2EAB9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E047CF15B778AA73C11DB62FAAC19C6179A00749" : 9223372036854775807,
+    "99D8FEE17C73C53C77DE1AB5630DB0DBD6D2EAB9" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "229C6DF7-2D6D-4840-8E1A-40189DD851DF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E047CF15B778AA73C11DB62FAAC19C6179A00749" : "..",
+    "99D8FEE17C73C53C77DE1AB5630DB0DBD6D2EAB9" : "HelloWorld\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HelloWorld",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HelloWorld.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AdeWijaNugraha\/HelloWorld.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99D8FEE17C73C53C77DE1AB5630DB0DBD6D2EAB9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AdeWijaNugraha\/HealtyCare.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E047CF15B778AA73C11DB62FAAC19C6179A00749"
+    }
+  ]
+}
